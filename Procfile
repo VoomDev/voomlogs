@@ -1,0 +1,1 @@
+web: gunicorn voom_log.wsgi --log-file -

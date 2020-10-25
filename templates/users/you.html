@@ -1,0 +1,14 @@
+{% extends "voom_logs/base.html" %}
+
+{% block page_header %}
+    <h2>Profile</h2>
+{% endblock page_header %}
+
+{% block content %}
+    <div>
+        <pre>
+            Username: {{ user.username }}
+            Password Hash: {{ user.password }}
+        </pre>
+    </div>
+{% endblock content %}
